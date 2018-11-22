@@ -5,7 +5,7 @@ public class Gennemsnit {
 	public static double beregn(int[] tal) {
 
 		// Before anything, we check to see if the int array is valid.
-		// There will be a TON of problems if the array is empty, so in that case an
+		// There might be problems if the array is empty, so in that case an
 		// exception is thrown.
 		if (tal.length == 0) {
 			throw new IllegalArgumentException("The array can't be empty!");
