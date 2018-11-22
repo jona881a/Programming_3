@@ -25,7 +25,7 @@ public class Gennemsnit {
 		// i is going to be equal to the amount of elements in the array.
 		// Dividing the sum with the amount of elements in the array
 		// gives us the average.
-		return sum / i;
+		return (double) sum / i;
 
 	}
 
